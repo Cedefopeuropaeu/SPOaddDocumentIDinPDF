@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "rb-stamp-ui",
+    "libraryId": "22910640-e8dc-4dc5-b6dd-bae119d4bab8",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "rb-stamp-ui",
+    "solutionShortDescription": "rb-stamp-ui description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ListViewCommandSet"
+  }
+}

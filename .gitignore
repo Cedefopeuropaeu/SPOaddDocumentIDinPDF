@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Azure Functions/MainHTTPFunction/Properties
+/thanos/obj
+/thanos/.vscode
+/thanos/bin/Debug/net7.0
+/thanos/.vs

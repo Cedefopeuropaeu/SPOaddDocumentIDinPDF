@@ -1,0 +1,52 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+    "solution": {
+        "name": "rb-stamp-ui-client-side-solution",
+        "id": "22910640-e8dc-4dc5-b6dd-bae119d4bab8",
+        "version": "1.1.1.0",
+        "includeClientSideAssets": true,
+        "skipFeatureDeployment": true,
+        "isDomainIsolated": false,
+        "webApiPermissionRequests": [
+            {
+                "resource": "CEDEFOPStamping",
+                "scope": "user_impersonation"
+            }
+        ],
+        "developer": {
+            "name": "",
+            "websiteUrl": "",
+            "privacyUrl": "",
+            "termsOfUseUrl": "",
+            "mpnId": "Undefined-1.14.0"
+        },
+        "metadata": {
+            "shortDescription": {
+                "default": "rb-stamp-ui description"
+            },
+            "longDescription": {
+                "default": "rb-stamp-ui description"
+            },
+            "screenshotPaths": [],
+            "videoUrl": "",
+            "categories": []
+        },
+        "features": [
+            {
+                "title": "Application Extension - Deployment of custom action",
+                "description": "Deploys a custom action with ClientSideComponentId association",
+                "id": "8b90b08a-9837-4441-9155-5b1fd5679f34",
+                "version": "1.0.0.0",
+                "assets": {
+                    "elementManifests": [
+                        "elements.xml",
+                        "ClientSideInstance.xml"
+                    ]
+                }
+            }
+        ]
+    },
+    "paths": {
+        "zippedPackage": "solution/rb-stamp-ui.sppkg"
+    }
+}
